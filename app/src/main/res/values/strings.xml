@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Simple Music App</string>
+
+    <string name="main_menu_comment">MUSIC GENRE MENU
+            Here is the main menu of the app with music genre list provided in the
+        music directory of the user\'s device. To access to these lists we could use an URI.
+            We use explicit intents to call each listed genre categories</string>
+    <string name="artist_list_comment">ARTISTS LIST PER GENRE
+        Here we can choose between some artists who played
+a music selected by music genre. Each button trigger an explicit intent
+ which open the artist\'s song list activity</string>
+    <string name="song_list_comment">SONG LIST FROM SELECTED ARTIST CATEGORY
+        Here we can choose between some song music. Each button trigger an explicit intent
+ which open the play song activity </string>
+    <string name="play_song_comment">SONGS FROM SELECTED ARTIST LIST
+        Here we can play the song selected in the previous list of songs. The track will be managed by using MediaPlayer
+    class with a static Method create() of this class</string>
+
+
+    <string name="main_btClassisc_text">"Classic"</string>
+    <string name="main_btjazz_text">"Jazz"</string>
+    <string name="main_btpop_text">"Pop"</string>
+
+    <string name="song_name">"track"</string>
+    <string name="song_list_button">"To song list"</string>
+    <string name="play_screen_button">"To song player"</string>
+    <string name="back_button">Back</string>
+
+</resources>

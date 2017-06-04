@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.musicappversion2.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/global_padding">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/main_menu_comment"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/classic_button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_bottom_margin"
+            android:background="@color/classicGenre"
+            android:textSize="@dimen/text_size_mainMenu"
+            android:text="@string/main_btClassisc_text"/>
+
+        <Button
+            android:id="@+id/jazz_button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/jazzGenre"
+            android:layout_marginBottom="@dimen/activity_bottom_margin"
+            android:textSize="@dimen/text_size_mainMenu"
+            android:text="@string/main_btjazz_text"/>
+
+        <Button
+            android:id="@+id/pop_button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/popGenre"
+            android:layout_marginBottom="@dimen/activity_bottom_margin"
+            android:textSize="@dimen/text_size_mainMenu"
+            android:text="@string/main_btpop_text"/>
+
+    </LinearLayout>
+
+</ScrollView>
